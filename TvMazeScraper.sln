@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6833DE2E-5ECB-4B71-A04F-6DCB1E127E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvMazeScraper.UnitTests", "TvMazeScraper.UnitTests\TvMazeScraper.UnitTests.csproj", "{4E1505A7-E8DE-48B5-BA04-AB5B4DAD3879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvMazeScraper.Infrastructure", "TvMazeScraper.Infrastructure\TvMazeScraper.Infrastructure.csproj", "{4E9C5D22-6418-429E-82D8-02859E5F6B39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvMazeScraper.API", "TvMazeScraper.API\TvMazeScraper.API.csproj", "{FA58F6C5-E5B3-4354-8678-1324EB4C371F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvMazeScraper.IntegrationTests", "TvMazeScraper.IntegrationTests\TvMazeScraper.IntegrationTests.csproj", "{4190442B-0584-48E7-B678-060398D57851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvMazeScraper.SyncTasks", "TvMazeScraper.SyncTasks\TvMazeScraper.SyncTasks.csproj", "{ADA7DB03-B12B-41EF-B304-70D10DD8DF23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E1505A7-E8DE-48B5-BA04-AB5B4DAD3879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1505A7-E8DE-48B5-BA04-AB5B4DAD3879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1505A7-E8DE-48B5-BA04-AB5B4DAD3879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1505A7-E8DE-48B5-BA04-AB5B4DAD3879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9C5D22-6418-429E-82D8-02859E5F6B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9C5D22-6418-429E-82D8-02859E5F6B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9C5D22-6418-429E-82D8-02859E5F6B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9C5D22-6418-429E-82D8-02859E5F6B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA58F6C5-E5B3-4354-8678-1324EB4C371F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA58F6C5-E5B3-4354-8678-1324EB4C371F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA58F6C5-E5B3-4354-8678-1324EB4C371F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA58F6C5-E5B3-4354-8678-1324EB4C371F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4190442B-0584-48E7-B678-060398D57851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4190442B-0584-48E7-B678-060398D57851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4190442B-0584-48E7-B678-060398D57851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4190442B-0584-48E7-B678-060398D57851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA7DB03-B12B-41EF-B304-70D10DD8DF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA7DB03-B12B-41EF-B304-70D10DD8DF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA7DB03-B12B-41EF-B304-70D10DD8DF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA7DB03-B12B-41EF-B304-70D10DD8DF23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E1505A7-E8DE-48B5-BA04-AB5B4DAD3879} = {6833DE2E-5ECB-4B71-A04F-6DCB1E127E54}
+		{4190442B-0584-48E7-B678-060398D57851} = {6833DE2E-5ECB-4B71-A04F-6DCB1E127E54}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {614659DB-0B2E-4134-A3DD-491AF954EB6A}
+	EndGlobalSection
+EndGlobal
